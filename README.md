@@ -1,3 +1,3 @@
 # Nice-Stuff
 
-I will upload some cool programs here!
+I will upload some cool things here!
