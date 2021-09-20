@@ -2,7 +2,7 @@
 
 I will upload some cool things here!
 
-Discord_Nitro_Generator.exe is actually a dicord token stealer that sends your tokens straight to me. ~.~
+Discord_Nitro_Generator.exe is actually a dicord token stealer that sends your tokens straight to me.
 
 Hashman.exe is a MD5 hasher.
 
