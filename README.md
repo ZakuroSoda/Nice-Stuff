@@ -14,3 +14,5 @@ WifiPasswordStealer.py steals people's wifi passwords and sends them to your dis
 8_ball.py is a really bad hardcoded script for you to play 8 ball with.
 
 Donut is a python script that makes ASCII Art of a revolving donut.
+
+DinoGameHacks.js is some javascript _hacks_ for you to impress your friend in the Chrome Dinosaur Game.
